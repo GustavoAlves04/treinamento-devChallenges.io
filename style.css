@@ -11,17 +11,63 @@ header{
     margin: 32px 90px;
 }
 
-header button{
+.button-one{
+    width: 138px;
+    height: 55px;
     border: none;
-    width: 227px;
-    height: 45px;
+    background: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.button-one:hover{
+    cursor: pointer;
+}
+
+.header-button{
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    border: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-two{
+    height: 55px;
+    width: 106px;
+    border: 1px solid #F2F2F2;
+    outline: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+.button-two:hover{
+    cursor: pointer;
+}
+
+.button-three{
+    background: transparent;
+    border: none;
+    width: 53px;
+}
+
+.button-three:hover{
+    cursor: pointer;
 }
 
 header i{
     color: #EB5757;
+    font-size: 1.3rem;
 }
 
 .main-text{
